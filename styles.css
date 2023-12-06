@@ -68,7 +68,6 @@ body {
 
 .container--titulo {
     font-size: 28px;
-    font-weight: 700;
 }
 
 .container--imagem {
@@ -175,4 +174,90 @@ body {
     margin: 1em 0;
     color: var(--cinza-secundario);
     font-size: 14px;
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 414px) {
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .principal {
+        background-size: 100vw;
+        background-position: top;
+    }
+
+    .container--caixa {
+        margin: 0;
+    }
+
+    .container--titulo {
+        text-align: center;
+        width: 300px;
+        margin-top: 400px;
+        margin-left: 50px;
+        margin-right: 100px;
+    }
+
+    .container--titulo strong {
+        color: #D9C359;
+    }
+
+    .container--imagem {
+        width: 350px;
+        margin: 50px 0 0 20px;
+    }
+
+    .container--botao  {
+        display: flex;
+        width: 200px;
+        text-align: center;
+        padding-left: 20px;
+        margin: 100px 0 0 100px;
+    }
+
+    .botao--secundario {
+        margin-top: 20px;
+    }
+
+    .container--aviso {
+        margin: 10px 0 0 100px;
+        width: 200px;
+    }
+    
+    /* Seção 2 */
+
+    .secundario {
+        margin: 390px 0 0 0;
+        display: block;
+        height: 400px;
+    }
+
+    .secundario-imagem {
+        margin-left: 30px;
+    }
+
+    .secundario strong {
+        color: #D9C359;
+    }
+
+    .descricao-texto {
+        width: 340px;
+        text-align: justify;
+    }
+
+    /* Seção 3 */
+
+    .container-terciario {
+        margin: 200px 0 0 0;
+        display: block;
+    }
+
+    .secundario--botao {
+        margin: 0 0 0 100px;
+        padding-left: 30px;
+    }
 }
