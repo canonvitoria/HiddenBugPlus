@@ -245,19 +245,44 @@ body {
     }
 
     .descricao-texto {
-        width: 340px;
+        width: 330px;
         text-align: justify;
+        margin: 0;
     }
 
     /* Seção 3 */
 
     .container-terciario {
-        margin: 200px 0 0 0;
+        margin: 200px 20px 0 0;
         display: block;
+        height: 550px;
     }
 
     .secundario--botao {
         margin: 0 0 0 100px;
         padding-left: 30px;
+    }
+
+    .dispositivos-titulo {
+        margin: 50px 10px 0 10px;
+        font-size: 40px;
+    }
+    
+    .dispositivos-titulo strong {
+        color: #D9C359;
+    }
+    
+    .dispositivos-lista {
+        display: block;
+    }
+
+    /* Rodapé */
+
+    .rodape {
+        margin: 10px 5px 10px 5px;
+    }
+
+    .rodape_lista {
+        display: block;
     }
 }
