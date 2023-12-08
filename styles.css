@@ -102,10 +102,18 @@ body {
 
 .secundario--botao {
     display: inline-block;
-    margin-top: 1em;
+    margin-top: 2em;
 }
 
 .container-terciario {
+    align-items: center;
+    margin: 0 6em;
+    height: 92vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container-quaternario {
     align-items: center;
     margin: 0 6em;
     height: 92vh;
